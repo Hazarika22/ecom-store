@@ -1,13 +1,11 @@
 import React from 'react';
 import Footer from '@/components/ui/footer';
 
-const Page = () => {
+export default function Page() {
   return (
     <div>
-      {/* Other page content */}
+      {/* Content of the page */}
       <Footer />
     </div>
   );
-};
-
-export default Page;
+}
